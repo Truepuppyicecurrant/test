@@ -1,6 +1,9 @@
 #!/bin/bash
 # Set 12-hour time locale for Ubuntu/Debian
 
+# Set timezone to EST
+sudo timedatectl set-timezone America/New_York
+
 # Update LC_TIME temporarily
 sudo update-locale LC_TIME="en_US.UTF-8"
 
